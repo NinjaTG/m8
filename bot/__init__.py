@@ -548,10 +548,10 @@ except KeyError:
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'Z-Mirror'
+        TITLE_NAME = 'TGFilmZone'
 except KeyError:
     log_info('TITLE_NAME not entered; using Z-Mirror')
-    TITLE_NAME = 'Z-Mirror'
+    TITLE_NAME = 'TGFilmZone'
 try:
     AUTO_DELETE_UPLOAD_MESSAGE_DURATION = int(getConfig('AUTO_DELETE_UPLOAD_MESSAGE_DURATION'))
 except KeyError:
